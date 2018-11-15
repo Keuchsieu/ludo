@@ -1,0 +1,23 @@
+/* empty for now */
+.board{
+  background-color: blanchedalmond;
+  background-image: url("../../../design/board.jpg");
+  background-repeat: no-repeat;
+  height: 640px;
+  width: 593px;
+}
+
+.piece{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.dice{
+  display: inline-block;
+}
+
+#my_color{
+  margin-left: 20%;
+  display: inline-block;
+}

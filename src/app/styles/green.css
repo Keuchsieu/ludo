@@ -1,0 +1,25 @@
+.green{
+  background-color: green;
+  border: white outset;
+  position: absolute;
+}
+
+#g_1{
+  left: 453px;
+  top: 500px;
+}
+
+#g_2{
+  left: 502px;
+  top: 500px;
+}
+
+#g_3{
+  left: 502px;
+  top: 450px;
+}
+
+#g_4{
+  left: 453px;
+  top: 450px;
+}

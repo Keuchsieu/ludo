@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <meta charset="utf-8" />
+  <title>LUDO</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    var dice_value = 0; // global variable
+    var turn = 0;
+    var NUM_PLAYER = 0;
+    var CAN_ROLL_DICE = true;
+    var CAN_MOVE = false;
+    var MY_COLOR = '';
+    var socket = io();
+  </script>
+</head>
+<body>
+  <div id="app"></div>
+</body>
+</html>

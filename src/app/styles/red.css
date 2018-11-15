@@ -1,0 +1,25 @@
+.red{
+  background-color: red;
+  border: white outset;
+  position: absolute;
+}
+
+#r_1{
+  left: 453px;
+  top: 60px;
+}
+
+#r_2{
+  left: 502px;
+  top: 60px;
+}
+
+#r_3{
+  left: 453px;
+  top: 108px;
+}
+
+#r_4{
+  left: 502px;
+  top: 108px;
+}
