@@ -2,7 +2,7 @@ var express = require('express');
 var path = require('path')
 // backend node js script
 var socket = require('socket.io');
-const port = 8000;
+const port = process.env.PORT || 8000;
 // 
 var app = express();
 // middleware that put public folder's content onto server
